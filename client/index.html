@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO list app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>TODO List App</h2>
+    <div class="header"> 
+      <div class="left">
+        <div class="find-user-data">
+            <p>All Users Data</p>
+            <button id="all-users-btn">Show All Users</button>
+          </div>
+          <div class="find-user-id">
+            <p>Users by ID</p>
+            <input type="text" id="user-id" placeholder="user Id" required><br>
+            <button id="user-by-id-btn">Find User by ID</button>
+          </div>
+          <div class="create-user-data">
+            <p>Create New User</p>
+            <input type="text" placeholder="name" id="name" required><br>
+            <input type="text" placeholder="age" id="age" required><br>
+            <input type="text" placeholder="city" id="city" required><br>
+            <button id="create-btn">Create new User</button>
+          </div>
+          <div class="update-user-data">
+            <p>Update Users by ID</p>
+            <input type="text" placeholder="user Id" id="user-update-id"required><br>
+            <input type="text" placeholder="name" id="up-name" required><br>
+            <input type="text" placeholder="age" id="up-age" required><br>
+            <input type="text" placeholder="city" id="up-city" required><br>
+            <button id="upd-user-btn">Update User by ID</button>
+          </div>
+          <div class="delete-user-data">
+            <p>Delete User by Id</p>
+            <input type="text" placeholder="user Id" id="user-del-id" required><br>
+            <button id="delete-btn">Delete User by ID</button>
+          </div>
+      </div>
+      <div class="right" id="">
+        <table id="right">
+          <p class="update-info"></p>
+          <!-- All Users Data Append here -->
+        </table>
+      </div>
+    </div>
+</body>
+<script src="./sctipt.js"></script>
+</html>
